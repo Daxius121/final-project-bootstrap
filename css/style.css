@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+a:link {
+  color: green;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  font-style: italic;
+  text-decoration: none;
+}
+.navbar {
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  background-image: url(../images/navbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.navlist {
+  list-style: none;
+  text-align: center;
+}
+.navitem {
+  display: inline;
+  font-size: xx-large;
+  margin: 5px;
+}
