@@ -37,10 +37,6 @@ a:hover {
   height: 75px;
 }
 
-.contactdiv {
-  text-align: center;
-}
-
 #fname,
 #email,
 #message {
@@ -66,7 +62,7 @@ a:hover {
   margin-right: 10px;
 }
 
-.h1center {
+.textcenter {
   text-align: center;
 }
 
