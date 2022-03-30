@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  color: aqua;
 }
 body {
   margin: 0px;
@@ -16,12 +17,10 @@ a:hover {
   text-decoration: none;
 }
 .navbar {
-  position: absolute;
+  position: fixed;
   background: url(../images/navbackground.jpg);
   background-size: cover;
   width: 100%;
-  left: 0px;
-  right: 0px;
   top: 0px;
 }
 .navlist {
@@ -39,6 +38,45 @@ a:hover {
 }
 
 .contactdiv {
-  margin-top: 150px;
   text-align: center;
+  margin-top: 150px;
+}
+
+#fname,
+#email,
+#message {
+  margin: 5px;
+}
+
+#submit {
+  margin: 5px;
+  color: black;
+}
+
+#contactstart {
+  font-size: 35px;
+}
+
+#heroimage {
+  width: 100%;
+}
+
+#bettafish {
+  height: 500px;
+  float: left;
+  margin-right: 10px;
+}
+
+.h1center {
+  text-align: center;
+}
+
+.bettainfo {
+  height: 500px;
+  font-size: 16px;
+}
+
+#whitiespets {
+  float: right;
+  margin-left: 10px;
 }
