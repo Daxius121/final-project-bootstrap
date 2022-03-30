@@ -26,6 +26,7 @@ a:hover {
 .navlist {
   list-style: none;
   text-align: center;
+  padding: 0px;
 }
 .navitem {
   display: inline;
