@@ -6,16 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
   </head>
   <body>
-    <header>
-      <nav class="navbar">
-        <ul class="navlist">
-          <li class="navitem"><a href="index.html">Home</a></li>
-          <li class="navitem"><a href="contact.html">Contact</a></li>
-          <li class="navitem"><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-    </header>
+    <nav class="navbar">
+      <ul class="navlist">
+        <li>
+          <a href="index.html"
+            ><img src="images/logo.png" alt="Logo" id="logo"
+          /></a>
+        </li>
+        <li class="navitem"><a href="index.html">Home</a></li>
+        <li class="navitem"><a href="contact.html">Contact</a></li>
+        <li class="navitem"><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <form class="contactdiv">
+      <p>Contact Me</p>
+      <p>Fields marked with * are required.</p>
+      <label for="ContactForm">Name *</label>
+      <br />
+      <input type="text" name="ContactForm" id="fname" required />
+      <br />
+      <label for="ContactForm">E-Mail *</label>
+      <br />
+      <input type="text" name="ContactForm" id="email" required />
+      <br />
+      <label for="ContactForm">Message *</label>
+      <br />
+      <input type="text" name="message" id="message" required />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+    <div class="contactdiv">
+      <a href="https://twitter.com/rebasmallz"
+        ><i class="fa-brands fa-twitter fa-2xl"></i
+      ></a>
+      <a href="https://facebook.com/whities">
+        <i class="fa-brands fa-facebook fa-2xl"></i
+      ></a>
+      <a href="https://instagram.com/rebasmallz"
+        ><i class="fa-brands fa-instagram fa-2xl"></i
+      ></a>
+    </div>
   </body>
 </html>
