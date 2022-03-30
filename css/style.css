@@ -41,17 +41,13 @@ a:hover {
 
 #fname,
 #email {
-  margin: 5px;
   line-height: 25px;
 }
 #message {
-  margin: 5px;
   line-height: 200px;
-  
 }
 
 #submit {
-  margin: 5px;
   color: black;
 }
 
@@ -86,4 +82,9 @@ a:hover {
 
 .navmargintop {
   margin-top: 150px;
+  margin-bottom: 25px;
+}
+
+.smallmargin {
+  margin: 5px;
 }
