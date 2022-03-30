@@ -81,3 +81,7 @@ a:hover {
 .navmargintop {
   margin-top: 150px;
 }
+
+.clear {
+  clear: auto;
+}
