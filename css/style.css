@@ -22,6 +22,7 @@ a:hover {
   background-size: cover;
   width: 100%;
   top: 0px;
+  z-index: 1;
 }
 .navlist {
   list-style: none;
@@ -39,9 +40,14 @@ a:hover {
 }
 
 #fname,
-#email,
+#email {
+  margin: 5px;
+  line-height: 25px;
+}
 #message {
   margin: 5px;
+  line-height: 200px;
+  
 }
 
 #submit {
