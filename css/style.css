@@ -39,7 +39,6 @@ a:hover {
 
 .contactdiv {
   text-align: center;
-  margin-top: 150px;
 }
 
 #fname,
@@ -74,9 +73,14 @@ a:hover {
 .bettainfo {
   height: 500px;
   font-size: 16px;
+  margin-left: 10px;
 }
 
 #whitiespets {
   float: right;
   margin-left: 10px;
+}
+
+.navmargintop {
+  margin-top: 150px;
 }
