@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   color: aqua;
+  font-family: 'Handlee', cursive;
 }
 body {
   margin: 0px;
@@ -11,11 +12,13 @@ a:link,
 a:visited {
   color: aqua;
   text-decoration: none;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 a:hover {
   font-style: italic;
   text-decoration: none;
+  font-family: 'Shadows Into Light', cursive;
 }
 .navbar {
   position: fixed;
@@ -82,7 +85,7 @@ a:hover {
 }
 
 .navmargintop {
-  margin-top: 150px;
+  margin-top: 175px;
   margin-bottom: 15px;
 }
 
