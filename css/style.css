@@ -89,3 +89,20 @@ a:hover {
 .smallmargin {
   margin: 5px;
 }
+
+.container {
+  overflow: auto;
+}
+
+.col {
+  float: left;
+  padding: 10px;
+}
+
+.col4 {
+  width: 25%;
+}
+
+.imagesize {
+  width: 100%;
+}
