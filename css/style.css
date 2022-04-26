@@ -17,8 +17,15 @@ body {
    height: 1000px;
  }
 
- @media (min-width: 576px) {
+ .videofix {
+   z-index: -1;
+ }
+
+ @media (min-width: 1181px) {
    .picfix {
      width: 500px;
+   }
+   .carouselfix {
+     width: 25%;
    }
  }
