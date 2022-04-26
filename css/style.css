@@ -1,111 +1,24 @@
 * {
   box-sizing: border-box;
   color: aqua;
-  font-family: 'Handlee', cursive;
 }
+
 body {
   margin: 0px;
   background-color: rgb(21, 91, 109);
 }
-
-a:link,
-a:visited {
-  color: aqua;
-  text-decoration: none;
-  font-family: 'Shadows Into Light', cursive;
-}
-
-a:hover {
-  font-style: italic;
-  text-decoration: none;
-  font-family: 'Shadows Into Light', cursive;
-}
 .navbar {
-  position: fixed;
   background: url(../images/navbackground.jpg);
   background-size: cover;
-  width: 100%;
-  top: 0px;
-  z-index: 1;
-}
-.navlist {
-  list-style: none;
-  text-align: center;
-  padding: 0px;
-}
-.navitem {
-  display: inline;
-  font-size: xx-large;
-  margin: 5px;
-}
+ }
 
-#logo {
-  height: 75px;
-}
+ #heroimage {
+   width: 100%;
+   height: 1000px;
+ }
 
-#fname,
-#email {
-  line-height: 25px;
-}
-#message {
-  line-height: 200px;
-}
-
-#submit {
-  color: black;
-}
-
-#contactstart {
-  font-size: 35px;
-}
-
-#heroimage {
-  width: 100%;
-}
-
-#bettafish {
-  height: 500px;
-  float: left;
-  margin-right: 10px;
-}
-
-.textcenter {
-  text-align: center;
-}
-
-.bettainfo {
-  height: 500px;
-  font-size: 16px;
-  margin-left: 10px;
-}
-
-#whitiespets {
-  float: right;
-  margin-left: 10px;
-}
-
-.navmargintop {
-  margin-top: 175px;
-  margin-bottom: 15px;
-}
-
-.smallmargin {
-  margin: 5px;
-}
-
-.container {
-  overflow: auto;
-}
-
-.col {
-  float: left;
-  padding: 10px;
-}
-
-.col4 {
-  width: 25%;
-}
-
-.imagesize {
-  width: 100%;
-}
+ @media (min-width: 576px) {
+   .picfix {
+     width: 500px;
+   }
+ }
